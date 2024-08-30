@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo {
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-section {
+    padding: 100px 0;
+    background: url('restaurant-hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.about-section, .menu-preview, .reservation-section {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.about-section h2, .menu-preview h2, .reservation-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-section p, .reservation-section p {
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.menu-preview {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dish {
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+}
+
+.dish img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.dish h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.dish p {
+    font-size: 16px;
+    color: #555;
+}
+
+.reservation-btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
